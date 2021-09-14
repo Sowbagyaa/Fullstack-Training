@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>Learn Fullstack</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
+
+	</head>
+	
+	<body>
+	
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="#"><img src="image/FS_Logo.png" alt="logo" width="60" height="50"></a>
+			<h1>Learn FullStack</h1>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Courses</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Code Playground</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Discuss</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Resources</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<button class="btn btn-primary" type="button" onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+		</nav>
+		
+    
+		<header class="page-header header container-fluid" style="background-image:url('images/header-background3.jpg');">
+			<div class="overlay"></div>
+			<div class="description">
+				<h1>Welcome to Learn FullStack!</h1>
+				<p>Courses designed by experts with real-world practice. Join our global community. It's free.</p>
+				<a href="#jump"><button class="btn btn-outline-secondary btn-lg">Start Learning!</button></a>
+			</div>
+		</header>
+		
+		<div id="id01" class="modal container-fluid">
+			<div class="form-container">
+				<h2 style="text-align:center;color:white;">Register and Start your learning</h2>
+				<form action="#" class="modal-content animate" target="_blank">
+					<legend>Please Enter Your Details</legend>
+					<fieldset>
+						<label for="fname">First Name:</label>
+						<input type="text" id="fname" name="firstname" placeholder="First Name">
+
+						<label for="lname">Last Name:</label>
+						<input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+						<label for="Gender">Gender:</label>
+						<select id="Gender" name="Gender">
+						  <option value="Male">Male</option>
+						  <option value="Female" selected>Female</option>  
+						</select>
+					  
+						<input type="submit" value="Submit">
+					</fieldset>
+					
+					<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+					
+				</form>
+			</div>
+		</div>
+		<div class="intro">
+			<h2 >Who is a Full Stack Web Developer</h2>
+			<p title="Paragraph" >A full stack web developer is a person who can develop both client and server software.
+			Full Stack Developers have to have skill from databases to graphic design and UI/UX management.
+			Cross-discipline web development skills involving front and back end - Deal with the overlap between the front end and back end - Utilize 
+			all the coding languages of the first two plus MySQL, machine learning,and more - Take responsibility for the entire experience to make sure it goes smoothly.
+			A large web application with strong potential for scaling will require many hands on deck — Back End, Front End, and Full Stack Developers.<p>
+		</div>
+		
+		<div class="container features">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Get Certified</h3>
+					<img src="image/certified.png" class="img-fluid">
+					<p>Earn a certificate to validate your newly acquired skills.Post it on social for others to see. Learn on the web or on the go. Imagine combining your passion and skill with your creativity, and making something new everyday!</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Learning on the go!</h3>
+					<img src="image/learn.jfif" class="img-fluid">
+					<p>The best way to learn to code. More than 20 courses. We got everything you need. Go step-by-step through our unique courses</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">	
+					<h3 class="feature-title">Get in touch!</h3>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="First Name" First Name="">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Last Name" Last Name="">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email Address" name="email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="4" placeholder="Enter your comments"></textarea>
+					</div>
+					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="Send">
+				</div>
+			</div> 
+		</div>
+
+		<!-- Posts section -->
+        <div class="blog" id="jump">
+			<div class="container">
+				<h1 class="text-center">Explore the Courses</h1>
+				<div class="row">
+					<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="card card1">
+							<div class="card-img">
+								<a href="https://www.javascript.com/" target="_blank"><img src="image/js.png" class="img-fluid"></a>
+							</div>
+        
+							<div class="card-body">
+								<h4 class="card-title">JavaScript</h4>
+								<p class="card-text">3.6M Learners</p>         
+         					</div>      
+						</div>
+				    </div>
+					<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="card card2">
+							<div class="card-img">
+								<a href="https://reactjs.org/" target="_blank"><img src="image/react.png" class="img-fluid"></a>
+							</div>  
+							<div class="card-body">
+								<h4 class="card-title">React</h4>
+								<p class="card-text">170k Learners</p>
+							</div>        
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="card card3">
+							<div class="card-img">
+								<a href="https://angular.io/" target="_blank"><img src="image/ang1.jpg" class="img-fluid"></a>
+							</div>       
+							<div class="card-body">
+								<h4 class="card-title">Angular</h4>
+								<p class="card-text">1M Learners</p>
+							</div>       
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+   	
+		<div class="blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="card card4">
+							<div class="card-img">
+								<a href="#"><img src="image/node.png" class="img-fluid"></a>
+							</div>
+        
+							<div class="card-body">
+								<h4 class="card-title">Node.js</h4>
+								<p class="card-text">16M Learners</p>         
+         					</div>       
+						</div>
+				    </div>
+					<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="card card5">
+							<div class="card-img">
+								<a href="#"><img src="image/php.jfif" class="img-fluid"></a>
+							</div>  
+							<div class="card-body">
+								<h4 class="card-title">PHP</h4>
+								<p class="card-text">50k learners</p>
+							</div>        
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="card card6">
+							<div class="card-img">
+								<a href="#"><img src="image/scss.jfif" class="img-fluid"></a>
+							</div>       
+							<div class="card-body">
+								<h4 class="card-title">SCSS</h4>
+								<p class="card-text">15.2M Learners</p>
+							</div>       
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="blog"><h1 class="text-center">Image Gallery</h1></div>
+	<div class="flexRow"> 
+		<div class="flexColumn">
+			<img src="image/react.png" style="width:100%">
+			<img src="image/html.png" style="width:100%">
+			<img src="image/node.png" style="width:100%">
+			<img src="image/php.jfif" style="width:100%">	
+		</div>
+		
+		<div class="flexColumn">
+			<img src="image/header-background3.jpg" style="width:100%">
+			<img src="image/header-background1.jpg" style="width:100%">
+			<img src="image/header-background2.jpg" style="width:100%">
+			<img src="image/header-background.jpg" style="width:100%">
+		</div> 
+		
+		<div class="flexColumn">
+			<img src="image/column-2.jpg" style="width:100%">
+			<img src="image/bg1.png" style="width:100%">
+			<img src="image/bt.jfif" style="width:100%">
+			<img src="image/column-1.jpg" style="width:100%">
+		</div>
+
+		<div class="flexColumn">
+			<img src="image/column-1.jpg" style="width:100%">
+			<img src="image/ess.jfif" style="width:100%">
+			<img src="image/learn.jfif" style="width:100%">
+			<img src="image/js.png" style="width:100%">
+		</div> 	
+	</div>
+	  
+		
+		<footer class="page-footer">
+			<div class="container ">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+					<h3 class="text-uppercase font-weight-bold">Learn FullStack</h3>
+					<p>Learn Full Stack is optimized for learning and training. Examples might be simplified to improve reading and learning.
+		Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. 
+		While using Learn Full stack, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+			
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>1640 Riverside Drive, Hill Valley, California
+					<br/><a href="mailto:learnFullStack@yahoo.com">learnFullStack@yahoo.com</a>
+					
+					</p>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">© 2020 | Copyright: LearnFullStack.com</div>
+		</footer>
+		
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+        
+	</body>
+	
+</html>
