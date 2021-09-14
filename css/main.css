@@ -299,11 +299,14 @@ input[type=submit]{
 	  
 	  .flexColumn img {
 		vertical-align: middle;
+		border-radius: 8px;
+		margin-top:8px;
 		
 	  }
 	  .flexColumn img:hover{
 		transform: scale(1,1.2);
 		border: 1px solid whitesmoke;
+		
 		box-shadow: 2px 2px 8px whitesmoke;
 	  }
 	  @media (max-width: 720px) {
