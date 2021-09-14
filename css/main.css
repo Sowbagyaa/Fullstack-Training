@@ -247,8 +247,12 @@ input[type=submit]{
 }
 
 .footer-copyright {
-	color: #666;
+	color: rgb(255, 255, 255);
 	padding: 40px 0;
+	text-shadow: 2px 2px 4px black;
+}
+footer h2{
+	text-shadow: 2px 2px 5px black;
 }
 
 
