@@ -333,7 +333,7 @@ div.card6:hover {
 /*--- footer ---*/
 
 .page-footer {
-	background-image: linear-gradient(black, gray);
+	background-image: linear-gradient(black,#6ab446);
 	color: #ccc;
 	padding: 60px 0 30px;
 	margin-top: 8px;
