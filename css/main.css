@@ -4,20 +4,22 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #e4e4e4;
+	
 }
 
 
 .navbar {
 	display: flex;
-	background: #6ab446;
-	padding-left: 10px;
-	padding-right: 10px;
+	background: #6ab446 !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	height: auto !important;
 }
 
 .nav-link,
 .navbar-brand {
-	color: #fff;
-	cursor: pointer;
+	color: #fff !important;
+	cursor: pointer !important;
 }
 
 .nav-link {
@@ -25,12 +27,13 @@ body {
 }
 
 .nav-link:hover {
-	color: #000;
+	color: #000 !important;
 }
 
-.navbar-collapse {
-	justify-content: flex-end;
-}
+.navbar-toggler {
+	text-align: center !important ;
+	
+} 
 
 /*--- header ---*/
 
@@ -80,8 +83,8 @@ body {
 }
 
 .description button:hover {
-	border: 1px solid #fff;
-	background: #fff;
+	border: 1px solid #fff !important;
+	background: #fff !important;
 	color: #000;
 }
 
@@ -415,9 +418,9 @@ footer h2 {
 
 @media (max-width: 768px) {
 
-	.navbar {
+	/* .navbar {
 		flex-direction: column;
-	}
+	} */
 
 	.intro p {
 		padding: 25px;
@@ -467,3 +470,21 @@ footer h2 {
 @media (max-width: 1024px){
 	
 }
+.carousel-item{
+	height: 500px !important;
+}
+.carousel-item img{
+	background-size:cover !important ;
+	height: 500px !important;
+	
+}
+.carousel-caption h2{
+	font-size: 50px  !important;
+	text-shadow: 1px 1px rgb(231, 45, 12) !important;
+
+}
+
+.navbar-collapse{
+	justify-content: flex-end !important;
+}
+
